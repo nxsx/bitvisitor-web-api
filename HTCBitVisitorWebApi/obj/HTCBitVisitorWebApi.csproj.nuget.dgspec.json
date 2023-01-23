@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\src\\bitvisitor-web-api\\HTCBitVisitorWebApi\\HTCBitVisitorWebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\src\\bitvisitor-web-api\\HTCBitVisitorWebApi\\HTCBitVisitorWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\src\\bitvisitor-web-api\\HTCBitVisitorWebApi\\HTCBitVisitorWebApi.csproj",
+        "projectName": "HTCBitVisitorWebApi",
+        "projectPath": "D:\\src\\bitvisitor-web-api\\HTCBitVisitorWebApi\\HTCBitVisitorWebApi.csproj",
+        "packagesPath": "C:\\Users\\80007101\\.nuget\\packages\\",
+        "outputPath": "D:\\src\\bitvisitor-web-api\\HTCBitVisitorWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\80007101\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
